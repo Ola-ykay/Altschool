@@ -1,0 +1,91 @@
+*{padding: 0;
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-link{text-align: right;
+    word-spacing: 40px;
+    font-size: 15px;
+    padding: 15px;
+background:blue}
+
+.nav-link a{text-decoration: none;
+    color: #fff;
+    word-spacing: normal;
+    padding: 6px; 
+
+}
+
+.nav-link a:hover{color:black ;
+ cursor: pointer;}
+
+body{height: 100vh;
+margin: 0;
+background:white;
+text-align: center;
+}
+img{position: absolute;
+top: 10%;
+left: 5%;}
+
+section{display:flex;}
+
+.about{
+    background: whitesmoke;
+    margin-left: 30%; padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: monospace;
+    display: inline-block;
+    box-shadow: 2px 2px 5px #cbced1, 2px 2px 5px #fff; font-size: 0.8em;
+}
+
+.about h2{margin-top: 10px; font-size: 1.0em;}
+.education{background: whitesmoke;
+    margin:20px; padding:30px; margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: monospace;
+    display: inline-block;
+    box-shadow: 2px 2px 5px #cbced1, 2px 2px 5px #fff; font-size: 0.8em;}
+
+    .education h2{font-size: 1.0em; margin-top: 10px;} 
+
+    #section{display: flex;}
+
+    .job{ background: whitesmoke;
+        margin-left: 30%; padding: 20px;
+        margin-top: 50px;
+        border-radius: 10px;
+        border: 1px solid white;
+        font-family: monospace;
+        display: inline-block;
+        box-shadow: 2px 2px 5px #cbced1, 2px 2px 5px #fff; font-size: 0.8em;}
+
+        .job h2{font-size: 1.0em; margin-top: 10px;}
+
+        .hobbies{ background: whitesmoke;
+         padding: 20px; margin-top: 50px; margin-right: ; 
+            border-radius: 10px;
+            border: 1px solid white;
+            font-family: monospace;
+            display: inline-block;
+            box-shadow: 2px 2px 5px #cbced1, 2px 2px 5px #fff; font-size: 0.8em;}
+
+            .hobbies h2{font-size: 1.0em; margin-bottom: 10px;}
+            .skills{ background: whitesmoke;
+                margin-left:; padding: 20px;
+                margin-top: 50px;
+                border-radius: 10px;
+                border: 1px solid white;
+                font-family: monospace;
+                display: inline-block;
+                box-shadow: 2px 2px 5px #cbced1, 2px 2px 5px #fff; font-size: 0.8em;}
+
+                .skills h2{font-size: 1.0em; margin-bottom: 10px;}
+                footer{margin-top: 180px;
+                background-color: blue; padding: 5px;
+            color: white;
+        font-size: 0.8em;}
